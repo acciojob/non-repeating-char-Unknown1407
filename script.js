@@ -13,11 +13,8 @@ function firstNonRepeatedChar(str) {
 			{
 				return char;
 			}
-			else
-			{
-				return ("null");
-			}
 		}
+	return "null";
 }
-// const input = prompt("Enter a string");
-// alert(firstNonRepeatedChar(input)); 
+const input = prompt("Enter a string");
+alert(firstNonRepeatedChar(input)); 
